@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 9,
+            "activePatchIndex": 10,
             "patches": [
                 {
                     "date": 1674734595611,
@@ -44,6 +44,10 @@
                 {
                     "date": 1674737386890,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -127,9 +127,8 @@\n \t\t\t</div>\n \t\t</div>\n     </footer>\n \t<!-- Footer - bloc-8 END -->\n-\t\n     <!-- Scripts -->\n \t  <script src=\"js/jquery-2.1.0.js\"></script>\n       <script src=\"js/bootstrap.js\"></script>\n       <script src=\"js/blocs.js\"></script>\n"
+                },
+                {
+                    "date": 1674740185934,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <!doctype html>\n-<html lang=\"Default\">\n+<html lang=\"fr\">\n \t<head>\n \t\t<meta charset=\"utf-8\">\n \t\t<meta name=\"description\" content=\" A Lyon, La Panthère est une agence de web design dotée d’une équipe de graphistes talentueux. Après étude sérieuse de vos objectifs commerciaux, l’agence aide votre entreprise à créer son site internet unique pour se démarquer de vos concurrents.\">\n \t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, viewport-fit=cover\">\n"
                 }
             ],
             "date": 1674734595611,
