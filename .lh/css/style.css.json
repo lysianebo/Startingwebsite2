@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 39,
+            "activePatchIndex": 48,
             "patches": [
                 {
                     "date": 1674727364654,
@@ -164,6 +164,42 @@
                 {
                     "date": 1674766436305,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -273,9 +273,9 @@\n }\r\n \r\n .row-no-gutters {\r\n    display: flex;\r\n-justify-content: space-between;\r\n+    justify-content: space-between;\r\n }\r\n \r\n .row.row-no-gutters > [class^=\"col-\"],\r\n .row.row-no-gutters > [class*=\" col-\"] {\r\n"
+                },
+                {
+                    "date": 1674767846804,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -90,9 +90,9 @@\n     right: 0;\r\n }\r\n \r\n .texture-paper::before {\r\n-    background: url(\"img/texture-paper.png\");\r\n+    background: url(\"..img/texture-paper.png\");\r\n     background-size: 280px 280px;\r\n }\r\n \r\n .b-parallax {\r\n@@ -272,9 +272,9 @@\n     margin-top: 80px;\r\n }\r\n \r\n .row-no-gutters {\r\n-   display: flex;\r\n+    display: flex;\r\n     justify-content: space-between;\r\n }\r\n \r\n .row.row-no-gutters > [class^=\"col-\"],\r\n"
+                },
+                {
+                    "date": 1674767947295,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -90,9 +90,9 @@\n     right: 0;\r\n }\r\n \r\n .texture-paper::before {\r\n-    background: url(\"..img/texture-paper.png\");\r\n+    background: url(\"../img/texture-paper.png\");\r\n     background-size: 280px 280px;\r\n }\r\n \r\n .b-parallax {\r\n"
+                },
+                {
+                    "date": 1674768044032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -770,9 +770,9 @@\n     background-color: #364577;\r\n }\r\n \r\n .bgc-atomic-tangerine {\r\n-    background-color: #7e523b;\r\n+    background-color: #523729;\r\n }\r\n \r\n .tc-white {\r\n     color: #FFF!important;\r\n"
+                },
+                {
+                    "date": 1674768062279,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -770,9 +770,9 @@\n     background-color: #364577;\r\n }\r\n \r\n .bgc-atomic-tangerine {\r\n-    background-color: #523729;\r\n+    background-color: #7e523b;\r\n }\r\n \r\n .tc-white {\r\n     color: #FFF!important;\r\n"
+                },
+                {
+                    "date": 1674768103304,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -770,9 +770,9 @@\n     background-color: #364577;\r\n }\r\n \r\n .bgc-atomic-tangerine {\r\n-    background-color: #7e523b;\r\n+    background-color: #7c4b31;\r\n }\r\n \r\n .tc-white {\r\n     color: #FFF!important;\r\n"
+                },
+                {
+                    "date": 1674768147342,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -770,9 +770,9 @@\n     background-color: #364577;\r\n }\r\n \r\n .bgc-atomic-tangerine {\r\n-    background-color: #7c4b31;\r\n+    background-color: #9e887b;\r\n }\r\n \r\n .tc-white {\r\n     color: #FFF!important;\r\n"
+                },
+                {
+                    "date": 1674768186232,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -770,9 +770,9 @@\n     background-color: #364577;\r\n }\r\n \r\n .bgc-atomic-tangerine {\r\n-    background-color: #9e887b;\r\n+    background-color: #9c7761;\r\n }\r\n \r\n .tc-white {\r\n     color: #FFF!important;\r\n"
+                },
+                {
+                    "date": 1674768205347,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -770,9 +770,9 @@\n     background-color: #364577;\r\n }\r\n \r\n .bgc-atomic-tangerine {\r\n-    background-color: #9c7761;\r\n+    background-color: #865d46;\r\n }\r\n \r\n .tc-white {\r\n     color: #FFF!important;\r\n"
+                },
+                {
+                    "date": 1674768215258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -770,9 +770,9 @@\n     background-color: #364577;\r\n }\r\n \r\n .bgc-atomic-tangerine {\r\n-    background-color: #865d46;\r\n+    background-color: #af7c5e;\r\n }\r\n \r\n .tc-white {\r\n     color: #FFF!important;\r\n"
                 }
             ],
             "date": 1674727364654,
