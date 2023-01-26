@@ -3,11 +3,47 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 9,
             "patches": [
                 {
                     "date": 1674734595611,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1674736826968,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -109,42 +109,25 @@\n \t</main>\n \t<!-- Footer - bloc-8 -->\n \t<footer class=\"bloc bgc-atomic-tangerine d-bloc\" id=\"bloc-8\">\n \t\t<div class=\"container bloc-sm\">\n-\t\t\t<div class=\"row\">\n-\t\t\t\t<div class=\"col-sm-12\">\n-\t\t\t\t\t<p class=\"text-center white\">\n-\t\t\t\t\t\tAgence La Panthère - Agence web basée à Lyon.<br>\n-\t\t\t\t\t</p>\n-\t\t\t\t\t<div class=\"row row-no-gutters social\">\n-\t\t\t\t\t\t<div class=\"col-sm-3\">\n-\t\t\t\t\t\t\t<div class=\"text-center\">\n-\t\t\t\t\t\t\t\t<a class=\"social\" href=\"index.html\"><span class=\"fa fa-twitter icon-md\"></span></a>\n-\t\t\t\t\t\t\t</div>\n-\t\t\t\t\t\t</div>\n-\t\t\t\t\t\t<div class=\"col-sm-3\">\n-\t\t\t\t\t\t\t<div class=\"text-center\">\n-\t\t\t\t\t\t\t\t<a class=\"social\" href=\"index.html\"><span class=\"fa fa-facebook icon-md\"></span></a>\n-\t\t\t\t\t\t\t</div>\n-\t\t\t\t\t\t</div>\n-\t\t\t\t\t\t<div class=\"col-sm-3\">\n-\t\t\t\t\t\t\t<div class=\"text-center\">\n-\t\t\t\t\t\t\t\t<a class=\"social\" href=\"index.html\"><span class=\"fa fa-dribbble icon-md\"></span></a>\n-\t\t\t\t\t\t\t</div>\n-\t\t\t\t\t\t</div>\n-\t\t\t\t\t\t<div class=\"col-sm-3\">\n-\t\t\t\t\t\t\t<div class=\"text-center\">\n-\t\t\t\t\t\t\t\t<a class=\"social\" href=\"index.html\"><span class=\"fa fa-instagram icon-md\"></span></a>\n-\t\t\t\t\t\t\t</div>\n-\t\t\t\t\t\t</div>\n-\t\t\t\t\t</div>\n-\t\t\t\t</div>\n+\t\t  <div class=\"row\">\n+\t\t\t  <p class=\"text-center white\">Agence Web Design La Panthère</p>\n+\t\t\t  <p class=\"text-center white\">contact@agencelapanthere.com<br />2 place Sathonay 69001 Lyon</p>\n+\t\t\t  <div class=\"row row-no-gutters social\">\n+\t\t\t\t<a class=\"social\" href=\"https://twitter.com/\" aria-label=\"Twitter\" title=\"Suivez-nous sur Twitter\"\n+\t\t\t\ttarget=\"_blank\"><i class=\"fa fa-twitter icon-md\"></i></a>\n+\t\t\t\t<a class=\"social\" href=\"https://fr-fr.facebook.com/\" aria-label=\"Facebook\"\n+\t\t\t\ttitle=\"Suivez-nous sur Facebook\" target=\"_blank\"><i class=\"fa fa-facebook icon-md\"></i></a>\n+\t\t\t\t<a class=\"social\" href=\"https://dribbble.com/\" aria-label=\"Dribble\" title=\"Suivez-nous sur Dribble\"\n+\t\t\t\ttarget=\"_blank\"><i class=\"fa fa-dribbble icon-md\"></i></a>\n+\t\t\t\t<a class=\"social\" href=\"https://www.instagram.com/\" aria-label=\"Instagram\"\n+\t\t\t\ttitle=\"Suivez-nous sur Instagram\" target=\"_blank\"><i class=\"fa fa-instagram icon-md\"></i></a>\n+\t\t\t  </div>\n \t\t\t</div>\n \t\t</div>\n+\t  </footer>\n \t</div>\n-\t<!-- Footer - bloc-8 END -->\n-\t</footer>\n-\t</div>\n \t<!-- Principal conteneur END -->\n     <!-- Scripts -->\n \t  <script src=\"js/jquery-2.1.0.js\"></script>\n       <script src=\"js/bootstrap.js\"></script>\n"
+                },
+                {
+                    "date": 1674736837749,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -134,7 +134,6 @@\n       <script src=\"js/blocs.js\"></script>\n       <script src=\"js/jquery.touchSwipe.js\"></script>\n \t  <script src=\"./js/jqBootstrapValidation.js\"></script>\n \t  <script src=\"./js/formHandler.js\"></script>\n-\n </body>\n </html>\n"
+                },
+                {
+                    "date": 1674737249151,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -109,24 +109,24 @@\n \t</main>\n \t<!-- Footer - bloc-8 -->\n \t<footer class=\"bloc bgc-atomic-tangerine d-bloc\" id=\"bloc-8\">\n \t\t<div class=\"container bloc-sm\">\n-\t\t  <div class=\"row\">\n-\t\t\t  <p class=\"text-center white\">Agence Web Design La Panthère</p>\n-\t\t\t  <p class=\"text-center white\">contact@agencelapanthere.com<br />2 place Sathonay 69001 Lyon</p>\n-\t\t\t  <div class=\"row row-no-gutters social\">\n-\t\t\t\t<a class=\"social\" href=\"https://twitter.com/\" aria-label=\"Twitter\" title=\"Suivez-nous sur Twitter\"\n-\t\t\t\ttarget=\"_blank\"><i class=\"fa fa-twitter icon-md\"></i></a>\n-\t\t\t\t<a class=\"social\" href=\"https://fr-fr.facebook.com/\" aria-label=\"Facebook\"\n-\t\t\t\ttitle=\"Suivez-nous sur Facebook\" target=\"_blank\"><i class=\"fa fa-facebook icon-md\"></i></a>\n-\t\t\t\t<a class=\"social\" href=\"https://dribbble.com/\" aria-label=\"Dribble\" title=\"Suivez-nous sur Dribble\"\n-\t\t\t\ttarget=\"_blank\"><i class=\"fa fa-dribbble icon-md\"></i></a>\n-\t\t\t\t<a class=\"social\" href=\"https://www.instagram.com/\" aria-label=\"Instagram\"\n-\t\t\t\ttitle=\"Suivez-nous sur Instagram\" target=\"_blank\"><i class=\"fa fa-instagram icon-md\"></i></a>\n-\t\t\t  </div>\n+\t\t\t<div class=\"row\">\n+\t\t\t\t<p class=\"text-center white\">Agence Web Design La Panthère</p>\n+\t\t\t\t<p class=\"text-center white\">contact@agencelapanthere.com<br />2 place Sathonay 69001 Lyon</p>\n+\t\t\t\t<div class=\"row row-no-gutters social\">\n+\t\t\t\t\t<a class=\"social\" href=\"https://twitter.com/\" aria-label=\"Twitter\" title=\"Suivez-nous sur Twitter\"\n+\t\t\t\t\ttarget=\"_blank\"><i class=\"fa fa-twitter icon-md\"></i></a>\n+\t\t\t\t\t<a class=\"social\" href=\"https://fr-fr.facebook.com/\" aria-label=\"Facebook\"\n+\t\t\t\t\ttitle=\"Suivez-nous sur Facebook\" target=\"_blank\"><i class=\"fa fa-facebook icon-md\"></i></a>\n+\t\t\t\t\t<a class=\"social\" href=\"https://dribbble.com/\" aria-label=\"Dribble\" title=\"Suivez-nous sur Dribble\"\n+\t\t\t\t\ttarget=\"_blank\"><i class=\"fa fa-dribbble icon-md\"></i></a>\n+\t\t\t\t\t<a class=\"social\" href=\"https://www.instagram.com/\" aria-label=\"Instagram\"\n+\t\t\t\t\ttitle=\"Suivez-nous sur Instagram\" target=\"_blank\"><i class=\"fa fa-instagram icon-md\"></i></a>\n+\t\t\t\t</div>\n \t\t\t</div>\n \t\t</div>\n-\t  </footer>\n+    </footer>\n \t</div>\n \t<!-- Principal conteneur END -->\n     <!-- Scripts -->\n \t  <script src=\"js/jquery-2.1.0.js\"></script>\n"
+                },
+                {
+                    "date": 1674737263911,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -126,9 +126,9 @@\n \t\t\t</div>\n \t\t</div>\n     </footer>\n \t</div>\n-\t<!-- Principal conteneur END -->\n+\t\n     <!-- Scripts -->\n \t  <script src=\"js/jquery-2.1.0.js\"></script>\n       <script src=\"js/bootstrap.js\"></script>\n       <script src=\"js/blocs.js\"></script>\n"
+                },
+                {
+                    "date": 1674737269851,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -106,8 +106,9 @@\n \t\t<!-- ScrollToTop Button -->\n \t\t<a class=\"bloc-button btn btn-d scrollToTop\" onclick=\"scrollToTarget('1')\"><span class=\"fa fa-chevron-up\"></span></a>\n \t\t<!-- ScrollToTop Button END-->\n \t</main>\n+\t<!-- Principal conteneur END -->\n \t<!-- Footer - bloc-8 -->\n \t<footer class=\"bloc bgc-atomic-tangerine d-bloc\" id=\"bloc-8\">\n \t\t<div class=\"container bloc-sm\">\n \t\t\t<div class=\"row\">\n"
+                },
+                {
+                    "date": 1674737313373,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -126,8 +126,9 @@\n \t\t\t\t</div>\n \t\t\t</div>\n \t\t</div>\n     </footer>\n+\t\n \t</div>\n \t\n     <!-- Scripts -->\n \t  <script src=\"js/jquery-2.1.0.js\"></script>\n"
+                },
+                {
+                    "date": 1674737328567,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -126,11 +126,10 @@\n \t\t\t\t</div>\n \t\t\t</div>\n \t\t</div>\n     </footer>\n-\t\n+\t<!-- Footer - bloc-8 END -->\n \t</div>\n-\t\n     <!-- Scripts -->\n \t  <script src=\"js/jquery-2.1.0.js\"></script>\n       <script src=\"js/bootstrap.js\"></script>\n       <script src=\"js/blocs.js\"></script>\n"
+                },
+                {
+                    "date": 1674737371556,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -127,9 +127,9 @@\n \t\t\t</div>\n \t\t</div>\n     </footer>\n \t<!-- Footer - bloc-8 END -->\n-\t</div>\n+\t\n     <!-- Scripts -->\n \t  <script src=\"js/jquery-2.1.0.js\"></script>\n       <script src=\"js/bootstrap.js\"></script>\n       <script src=\"js/blocs.js\"></script>\n"
+                },
+                {
+                    "date": 1674737386890,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -127,9 +127,8 @@\n \t\t\t</div>\n \t\t</div>\n     </footer>\n \t<!-- Footer - bloc-8 END -->\n-\t\n     <!-- Scripts -->\n \t  <script src=\"js/jquery-2.1.0.js\"></script>\n       <script src=\"js/bootstrap.js\"></script>\n       <script src=\"js/blocs.js\"></script>\n"
                 }
             ],
             "date": 1674734595611,
