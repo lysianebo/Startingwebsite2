@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 7,
             "patches": [
                 {
                     "date": 1674042809310,
@@ -20,6 +20,22 @@
                 {
                     "date": 1674042846759,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     <link rel=\"shortcut icon\" type=\"image/png\" href=\"favicon.jpg\">\n     \n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/bootstrap.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n-\t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/font-awesome.min.css\">\n+\t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/font-awesome.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/et-line.min.css\">\n \t\n     \n \t<script src=\"./js/jquery-2.1.0.js\"></script>\n"
+                },
+                {
+                    "date": 1674722588022,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,15 +8,15 @@\n     <link rel=\"shortcut icon\" type=\"image/png\" href=\"favicon.jpg\">\n     \n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/bootstrap.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n-\t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/font-awesome.css\">\n+\t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/font-awesome.min.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/et-line.min.css\">\n \t\n     \n-\t<script src=\"./js/jquery-2.1.0.js\"></script>\n-\t<script src=\"./js/bootstrap.js\"></script>\n-\t<script src=\"./js/blocs.js\"></script>\n+\t<script src=\"./js/jquery-2.1.0.min.js\"></script>\n+\t<script src=\"./js/bootstrap.min.js\"></script>\n+\t<script src=\"./js/blocs.min.js\"></script>\n \t<script src=\"./js/jqBootstrapValidation.js\"></script>\n \t<script src=\"./js/formHandler.js\"></script>\n     <title>page2</title>\n \n"
+                },
+                {
+                    "date": 1674722595883,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,10 +8,10 @@\n     <link rel=\"shortcut icon\" type=\"image/png\" href=\"favicon.jpg\">\n     \n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/bootstrap.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n-\t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/font-awesome.min.css\">\n-\t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/et-line.min.css\">\n+\t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/font-awesome.css\">\n+\t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/et-line.css\">\n \t\n     \n \t<script src=\"./js/jquery-2.1.0.min.js\"></script>\n \t<script src=\"./js/bootstrap.min.js\"></script>\n"
+                },
+                {
+                    "date": 1674722665307,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/font-awesome.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/et-line.css\">\n \t\n     \n-\t<script src=\"./js/jquery-2.1.0.min.js\"></script>\n+\t<script src=\"./js/jquery-2.1.0.js\"></script>\n \t<script src=\"./js/bootstrap.min.js\"></script>\n \t<script src=\"./js/blocs.min.js\"></script>\n \t<script src=\"./js/jqBootstrapValidation.js\"></script>\n \t<script src=\"./js/formHandler.js\"></script>\n"
+                },
+                {
+                    "date": 1674722674220,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/et-line.css\">\n \t\n     \n \t<script src=\"./js/jquery-2.1.0.js\"></script>\n-\t<script src=\"./js/bootstrap.min.js\"></script>\n+\t<script src=\"./js/bootstrap.js\"></script>\n \t<script src=\"./js/blocs.min.js\"></script>\n \t<script src=\"./js/jqBootstrapValidation.js\"></script>\n \t<script src=\"./js/formHandler.js\"></script>\n     <title>page2</title>\n"
                 }
             ],
             "date": 1674042809310,
