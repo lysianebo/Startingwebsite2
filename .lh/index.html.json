@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 8,
+            "activePatchIndex": 9,
             "patches": [
                 {
                     "date": 1673876338830,
@@ -40,6 +40,10 @@
                 {
                     "date": 1673882607407,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/et-line.css\">\n \t\n     \n \t<script defer src=\"./js/jquery-2.1.0.js\"></script>\n-\t<script assrc=\"./js/bootstrap.js\"></script>\n+\t<script asysrc=\"./js/bootstrap.js\"></script>\n \t<script src=\"./js/blocs.js\"></script>\n \t<script src=\"./js/jquery.touchSwipe.js\" defer></script>\n \t<script src=\"./js/gmaps.js\"></script>\n \n"
+                },
+                {
+                    "date": 1674733593563,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -192,9 +192,9 @@\n \t\t\t\t\t<h2 class=\"mg-md text-center tc-white\">\n \t\t\t\t\t\tPrêt pour redonner vie à votre projet ?<br>Contactez notre équipe !\n \t\t\t\t\t</h2>\n \t\t\t\t\t<div class=\"col-sm-12 text-center\">\n-\t\t\t\t\t\t<a href=\"co.html\" class=\"btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero\">Contact</a>\n+\t\t\t\t\t\t<a href=\"con.html\" class=\"btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero\">Contact</a>\n \t\t\t\t\t</div>\n \t\t\t\t</div>\n \t\t\t</div>\n \t\t</section>\n"
                 }
             ],
             "date": 1673876338830,
