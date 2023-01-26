@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 59,
+            "activePatchIndex": 66,
             "patches": [
                 {
                     "date": 1674727364654,
@@ -244,6 +244,34 @@
                 {
                     "date": 1674773942088,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -90,9 +90,9 @@\n     right: 0;\r\n }\r\n \r\n .texture-paper::before {\r\n-    background: url(\"../img/texture-paper.a\");\r\n+    background: url(\"../img/texture-paper.avif\");\r\n     background-size: 280px 280px;\r\n }\r\n \r\n .b-parallax {\r\n"
+                },
+                {
+                    "date": 1674775562711,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -650,9 +650,9 @@\n .btn,\r\n a {\r\n     font-family: \"helvetica\";\r\n     font-weight: 400;\r\n-    color: #575757!important;\r\n+    color: #!important;\r\n }\r\n \r\n .container {\r\n     max-width: 1000px;\r\n"
+                },
+                {
+                    "date": 1674775575188,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -650,9 +650,9 @@\n .btn,\r\n a {\r\n     font-family: \"helvetica\";\r\n     font-weight: 400;\r\n-    color: #!important;\r\n+    color: #000!important;\r\n }\r\n \r\n .container {\r\n     max-width: 1000px;\r\n"
+                },
+                {
+                    "date": 1674775632162,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -653,8 +653,9 @@\n     font-weight: 400;\r\n     color: #000!important;\r\n }\r\n \r\n+\r\n .container {\r\n     max-width: 1000px;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1674775639622,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -652,10 +652,10 @@\n     font-family: \"helvetica\";\r\n     font-weight: 400;\r\n     color: #000!important;\r\n }\r\n+blockquote[]\r\n \r\n-\r\n .container {\r\n     max-width: 1000px;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1674775646903,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -652,9 +652,11 @@\n     font-family: \"helvetica\";\r\n     font-weight: 400;\r\n     color: #000!important;\r\n }\r\n-blockquote[]\r\n+blockquote{\r\n+    co\r\n+}\r\n \r\n .container {\r\n     max-width: 1000px;\r\n }\r\n"
+                },
+                {
+                    "date": 1674775656075,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -653,9 +653,9 @@\n     font-weight: 400;\r\n     color: #000!important;\r\n }\r\n blockquote{\r\n-    co\r\n+    color: #F3976C;\r\n }\r\n \r\n .container {\r\n     max-width: 1000px;\r\n"
+                },
+                {
+                    "date": 1674775683235,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -653,9 +653,9 @@\n     font-weight: 400;\r\n     color: #000!important;\r\n }\r\n blockquote{\r\n-    color: #F3976C;\r\n+    color: #773415;\r\n }\r\n \r\n .container {\r\n     max-width: 1000px;\r\n"
                 }
             ],
             "date": 1674727364654,
