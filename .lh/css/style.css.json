@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 30,
+            "activePatchIndex": 39,
             "patches": [
                 {
                     "date": 1674727364654,
@@ -128,6 +128,42 @@
                 {
                     "date": 1674748169414,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -770,9 +770,9 @@\n     background-color: #364577;\r\n }\r\n \r\n .bgc-atomic-tangerine {\r\n-    background-color: #694532;\r\n+    background-color: #7e523b;\r\n }\r\n \r\n .tc-white {\r\n     color: #FFF!important;\r\n"
+                },
+                {
+                    "date": 1674765713493,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -676,9 +676,9 @@\n     margin: auto auto auto auto;\r\n }\r\n \r\n p {\r\n-    font-size: 11px;\r\n+    font-size: 1px;\r\n }\r\n \r\n .tight-width-whitespace {\r\n     max-width: 600px;\r\n"
+                },
+                {
+                    "date": 1674766183708,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -475,9 +475,9 @@\n     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);\r\n }\r\n \r\n .icon-md {\r\n-    font-size: 30px!important;\r\n+    font-size: px!important;\r\n }\r\n \r\n .icon-lg {\r\n     font-size: 60px!important;\r\n@@ -676,9 +676,9 @@\n     margin: auto auto auto auto;\r\n }\r\n \r\n p {\r\n-    font-size: 1px;\r\n+    font-size: 16px;\r\n }\r\n \r\n .tight-width-whitespace {\r\n     max-width: 600px;\r\n"
+                },
+                {
+                    "date": 1674766222954,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -475,9 +475,9 @@\n     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);\r\n }\r\n \r\n .icon-md {\r\n-    font-size: px!important;\r\n+    font-size: 48px!important;\r\n }\r\n \r\n .icon-lg {\r\n     font-size: 60px!important;\r\n"
+                },
+                {
+                    "date": 1674766345592,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -272,9 +272,9 @@\n     margin-top: 80px;\r\n }\r\n \r\n .row-no-gutters {\r\n-    margin-right: 0;\r\n+   dsi\r\n     margin-left: 0;\r\n }\r\n \r\n .row.row-no-gutters > [class^=\"col-\"],\r\n"
+                },
+                {
+                    "date": 1674766352106,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -272,9 +272,9 @@\n     margin-top: 80px;\r\n }\r\n \r\n .row-no-gutters {\r\n-   dsi\r\n+   display: flex;\r\n     margin-left: 0;\r\n }\r\n \r\n .row.row-no-gutters > [class^=\"col-\"],\r\n"
+                },
+                {
+                    "date": 1674766359620,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -273,9 +273,9 @@\n }\r\n \r\n .row-no-gutters {\r\n    display: flex;\r\n-    margin-left: 0;\r\n+\r\n }\r\n \r\n .row.row-no-gutters > [class^=\"col-\"],\r\n .row.row-no-gutters > [class*=\" col-\"] {\r\n"
+                },
+                {
+                    "date": 1674766365900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -273,9 +273,9 @@\n }\r\n \r\n .row-no-gutters {\r\n    display: flex;\r\n-\r\n+justify-content: ;\r\n }\r\n \r\n .row.row-no-gutters > [class^=\"col-\"],\r\n .row.row-no-gutters > [class*=\" col-\"] {\r\n"
+                },
+                {
+                    "date": 1674766373997,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -273,9 +273,9 @@\n }\r\n \r\n .row-no-gutters {\r\n    display: flex;\r\n-justify-content: ;\r\n+justify-content: space-between;\r\n }\r\n \r\n .row.row-no-gutters > [class^=\"col-\"],\r\n .row.row-no-gutters > [class*=\" col-\"] {\r\n"
+                },
+                {
+                    "date": 1674766436305,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -273,9 +273,9 @@\n }\r\n \r\n .row-no-gutters {\r\n    display: flex;\r\n-justify-content: space-between;\r\n+    justify-content: space-between;\r\n }\r\n \r\n .row.row-no-gutters > [class^=\"col-\"],\r\n .row.row-no-gutters > [class*=\" col-\"] {\r\n"
                 }
             ],
             "date": 1674727364654,

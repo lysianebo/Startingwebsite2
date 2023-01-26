@@ -273,8 +273,8 @@ a:hover {
 }
 
 .row-no-gutters {
-    margin-right: 0;
-    margin-left: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -476,7 +476,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 48px!important;
 }
 
 .icon-lg {
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
