@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 26,
+            "activePatchIndex": 48,
             "patches": [
                 {
                     "date": 1674734595611,
@@ -112,6 +112,94 @@
                 {
                     "date": 1674761483147,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,9 +111,9 @@\n \t<footer class=\"bloc bgc-atomic-tangerine d-bloc\" id=\"bloc-8\">\n \t\t<div class=\"container bloc-sm\">\n \t\t\t<div class=\"row\">\n \t\t\t\t<p class=\"text-center white\">Agence Web Design La Panthère</p>\n-\t\t\t\t<p class=\"text-center white\">contact@agencelapanthere.com<br />2 place Sathonay 69001 Lyon</p>\n+\t\t\t\t<p class=\"text-center white\">contact@agencelapanthere.com<br/>2 place Sathonay 69001 Lyon</p>\n \t\t\t\t<div class=\"row row-no-gutters social\">\n \t\t\t\t\t<a class=\"social\" href=\"https://twitter.com/\" aria-label=\"Twitter\" title=\"Suivez-nous sur Twitter\"\n \t\t\t\t\ttarget=\"_blank\"><i class=\"fa fa-twitter icon-md\"></i></a>\n \t\t\t\t\t<a class=\"social\" href=\"https://fr-fr.facebook.com/\" aria-label=\"Facebook\"\n"
+                },
+                {
+                    "date": 1674787700899,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -94,9 +94,9 @@\n \t\t\t\t\t\t</form>\n \t\t\t\t\t</div>\n \t\t\t\t\t<div class=\"col-sm-6\">\n \t\t\t\t\t\t<p>\n-\t\t\t\t\t\t\tcontact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>\n+\t\t\t\t\t\t\tcOuvert de 9h à 18h, du lundi au vendredi<br>\n \t\t\t\t\t\t</p>\n \t\t\t\t\t</div>\n \t\t\t\t</div>\n \t\t\t</div>\n"
+                },
+                {
+                    "date": 1674787706980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -94,10 +94,9 @@\n \t\t\t\t\t\t</form>\n \t\t\t\t\t</div>\n \t\t\t\t\t<div class=\"col-sm-6\">\n \t\t\t\t\t\t<p>\n-\t\t\t\t\t\t\tcOuvert de 9h à 18h, du lundi au vendredi<br>\n-\t\t\t\t\t\t</p>\n+\t\t\t\t\t\t\tcOuvert de 9h à 18h, du lundi au vendredi<br>\t\t\t\t\t\t</p>\n \t\t\t\t\t</div>\n \t\t\t\t</div>\n \t\t\t</div>\n \t\t</section>\n"
+                },
+                {
+                    "date": 1674787721131,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -94,9 +94,9 @@\n \t\t\t\t\t\t</form>\n \t\t\t\t\t</div>\n \t\t\t\t\t<div class=\"col-sm-6\">\n \t\t\t\t\t\t<p>\n-\t\t\t\t\t\t\tcOuvert de 9h à 18h, du lundi au vendredi<br>\t\t\t\t\t\t</p>\n+\t\t\t\t\t\t\tcOuvert de 9h à 18h, du lundi au vendredi\n \t\t\t\t\t</div>\n \t\t\t\t</div>\n \t\t\t</div>\n \t\t</section>\n"
+                },
+                {
+                    "date": 1674787726498,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,10 +93,9 @@\n \t\t\t\t\t\t\t</div>\n \t\t\t\t\t\t</form>\n \t\t\t\t\t</div>\n \t\t\t\t\t<div class=\"col-sm-6\">\n-\t\t\t\t\t\t<p>\n-\t\t\t\t\t\t\tcOuvert de 9h à 18h, du lundi au vendredi\n+\t\t\t\t\t\t<p>cOuvert de 9h à 18h, du lundi au vendredi\n \t\t\t\t\t</div>\n \t\t\t\t</div>\n \t\t\t</div>\n \t\t</section>\n"
+                },
+                {
+                    "date": 1674787731711,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,9 +93,9 @@\n \t\t\t\t\t\t\t</div>\n \t\t\t\t\t\t</form>\n \t\t\t\t\t</div>\n \t\t\t\t\t<div class=\"col-sm-6\">\n-\t\t\t\t\t\t<p>cOuvert de 9h à 18h, du lundi au vendredi\n+\t\t\t\t\t\t<p>Ouvert de 9h à 18h, du lundi au vendredi\n \t\t\t\t\t</div>\n \t\t\t\t</div>\n \t\t\t</div>\n \t\t</section>\n"
+                },
+                {
+                    "date": 1674787741844,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,9 +93,9 @@\n \t\t\t\t\t\t\t</div>\n \t\t\t\t\t\t</form>\n \t\t\t\t\t</div>\n \t\t\t\t\t<div class=\"col-sm-6\">\n-\t\t\t\t\t\t<p>Ouvert de 9h à 18h, du lundi au vendredi\n+\t\t\t\t\t\tOuvert de 9h à 18h, du lundi au vendredi\n \t\t\t\t\t</div>\n \t\t\t\t</div>\n \t\t\t</div>\n \t\t</section>\n"
+                },
+                {
+                    "date": 1674787752961,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,9 +92,9 @@\n \t\t\t\t\t\t\t\t</button>\n \t\t\t\t\t\t\t</div>\n \t\t\t\t\t\t</form>\n \t\t\t\t\t</div>\n-\t\t\t\t\t<div class=\"col-sm-6\">\n+\t\t\t\t\t<div class=\"col-sm-6 \">\n \t\t\t\t\t\tOuvert de 9h à 18h, du lundi au vendredi\n \t\t\t\t\t</div>\n \t\t\t\t</div>\n \t\t\t</div>\n"
+                },
+                {
+                    "date": 1674787878636,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,11 +92,9 @@\n \t\t\t\t\t\t\t\t</button>\n \t\t\t\t\t\t\t</div>\n \t\t\t\t\t\t</form>\n \t\t\t\t\t</div>\n-\t\t\t\t\t<div class=\"col-sm-6 \">\n-\t\t\t\t\t\tOuvert de 9h à 18h, du lundi au vendredi\n-\t\t\t\t\t</div>\n+\t\t\t\t\t\n \t\t\t\t</div>\n \t\t\t</div>\n \t\t</section>\n \t\t<!-- bloc-7 END -->\n"
+                },
+                {
+                    "date": 1674787899727,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,8 +91,9 @@\n \t\t\t\t\t\t\t\tEnvoyer\n \t\t\t\t\t\t\t\t</button>\n \t\t\t\t\t\t\t</div>\n \t\t\t\t\t\t</form>\n+\t\t\t\t\t\t\n \t\t\t\t\t</div>\n \t\t\t\t\t\n \t\t\t\t</div>\n \t\t\t</div>\n"
+                },
+                {
+                    "date": 1674787912885,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,10 +91,12 @@\n \t\t\t\t\t\t\t\tEnvoyer\n \t\t\t\t\t\t\t\t</button>\n \t\t\t\t\t\t\t</div>\n \t\t\t\t\t\t</form>\n-\t\t\t\t\t\t\n+\t\t\t\t\t\t<div class=\"col-sm-6 text-center\">\n+\t\t\t\t\t\tOuvert de 9h à 18h, du lundi au vendredi\n \t\t\t\t\t</div>\n+\t\t\t\t\t</div>\n \t\t\t\t\t\n \t\t\t\t</div>\n \t\t\t</div>\n \t\t</section>\n"
+                },
+                {
+                    "date": 1674787919791,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,13 +91,13 @@\n \t\t\t\t\t\t\t\tEnvoyer\n \t\t\t\t\t\t\t\t</button>\n \t\t\t\t\t\t\t</div>\n \t\t\t\t\t\t</form>\n-\t\t\t\t\t\t<div class=\"col-sm-6 text-center\">\n+\t\t\t\t\t\t\n+\t\t\t\t\t</div>\n+\t\t\t\t\t<div class=\"col-sm-6 text-center\">\n \t\t\t\t\t\tOuvert de 9h à 18h, du lundi au vendredi\n \t\t\t\t\t</div>\n-\t\t\t\t\t</div>\n-\t\t\t\t\t\n \t\t\t\t</div>\n \t\t\t</div>\n \t\t</section>\n \t\t<!-- bloc-7 END -->\n"
+                },
+                {
+                    "date": 1674787937515,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,9 +91,8 @@\n \t\t\t\t\t\t\t\tEnvoyer\n \t\t\t\t\t\t\t\t</button>\n \t\t\t\t\t\t\t</div>\n \t\t\t\t\t\t</form>\n-\t\t\t\t\t\t\n \t\t\t\t\t</div>\n \t\t\t\t\t<div class=\"col-sm-6 text-center\">\n \t\t\t\t\t\tOuvert de 9h à 18h, du lundi au vendredi\n \t\t\t\t\t</div>\n"
+                },
+                {
+                    "date": 1674787953090,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,11 +92,11 @@\n \t\t\t\t\t\t\t\t</button>\n \t\t\t\t\t\t\t</div>\n \t\t\t\t\t\t</form>\n \t\t\t\t\t</div>\n-\t\t\t\t\t<div class=\"col-sm-6 text-center\">\n-\t\t\t\t\t\tOuvert de 9h à 18h, du lundi au vendredi\n-\t\t\t\t\t</div>\n+\t\t\t\t\t\t<div class=\"col-sm-6 text-center\">\n+\t\t\t\t\t\t\tOuvert de 9h à 18h, du lundi au vendredi\n+\t\t\t\t\t\t</div>\n \t\t\t\t</div>\n \t\t\t</div>\n \t\t</section>\n \t\t<!-- bloc-7 END -->\n"
+                },
+                {
+                    "date": 1674788001288,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -94,9 +94,9 @@\n \t\t\t\t\t\t</form>\n \t\t\t\t\t</div>\n \t\t\t\t\t\t<div class=\"col-sm-6 text-center\">\n \t\t\t\t\t\t\tOuvert de 9h à 18h, du lundi au vendredi\n-\t\t\t\t\t\t</div>\n+\t\t\t\t\t</div>\n \t\t\t\t</div>\n \t\t\t</div>\n \t\t</section>\n \t\t<!-- bloc-7 END -->\n"
+                },
+                {
+                    "date": 1674788007076,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,9 +91,9 @@\n \t\t\t\t\t\t\t\tEnvoyer\n \t\t\t\t\t\t\t\t</button>\n \t\t\t\t\t\t\t</div>\n \t\t\t\t\t\t</form>\n-\t\t\t\t\t</div>\n+\t\t\t\t\t\t</div>\n \t\t\t\t\t\t<div class=\"col-sm-6 text-center\">\n \t\t\t\t\t\t\tOuvert de 9h à 18h, du lundi au vendredi\n \t\t\t\t\t</div>\n \t\t\t\t</div>\n"
+                },
+                {
+                    "date": 1674788022816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,9 +91,9 @@\n \t\t\t\t\t\t\t\tEnvoyer\n \t\t\t\t\t\t\t\t</button>\n \t\t\t\t\t\t\t</div>\n \t\t\t\t\t\t</form>\n-\t\t\t\t\t\t</div>\n+\t\t\t\t\t\t\n \t\t\t\t\t\t<div class=\"col-sm-6 text-center\">\n \t\t\t\t\t\t\tOuvert de 9h à 18h, du lundi au vendredi\n \t\t\t\t\t</div>\n \t\t\t\t</div>\n"
+                },
+                {
+                    "date": 1674788028570,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -94,8 +94,9 @@\n \t\t\t\t\t\t</form>\n \t\t\t\t\t\t\n \t\t\t\t\t\t<div class=\"col-sm-6 text-center\">\n \t\t\t\t\t\t\tOuvert de 9h à 18h, du lundi au vendredi\n+\t\t\t\t\t\t\t\n \t\t\t\t\t</div>\n \t\t\t\t</div>\n \t\t\t</div>\n \t\t</section>\n"
+                },
+                {
+                    "date": 1674788036131,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,12 +91,11 @@\n \t\t\t\t\t\t\t\tEnvoyer\n \t\t\t\t\t\t\t\t</button>\n \t\t\t\t\t\t\t</div>\n \t\t\t\t\t\t</form>\n-\t\t\t\t\t\t\n \t\t\t\t\t\t<div class=\"col-sm-6 text-center\">\n \t\t\t\t\t\t\tOuvert de 9h à 18h, du lundi au vendredi\n-\t\t\t\t\t\t\t\n+\t\t\t\t\t\t</div>\n \t\t\t\t\t</div>\n \t\t\t\t</div>\n \t\t\t</div>\n \t\t</section>\n"
+                },
+                {
+                    "date": 1674788183536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,11 +91,9 @@\n \t\t\t\t\t\t\t\tEnvoyer\n \t\t\t\t\t\t\t\t</button>\n \t\t\t\t\t\t\t</div>\n \t\t\t\t\t\t</form>\n-\t\t\t\t\t\t<div class=\"col-sm-6 text-center\">\n-\t\t\t\t\t\t\tOuvert de 9h à 18h, du lundi au vendredi\n-\t\t\t\t\t\t</div>\n+\t\t\t\t\t\t\n \t\t\t\t\t</div>\n \t\t\t\t</div>\n \t\t\t</div>\n \t\t</section>\n"
+                },
+                {
+                    "date": 1674788196615,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,17 +91,17 @@\n \t\t\t\t\t\t\t\tEnvoyer\n \t\t\t\t\t\t\t\t</button>\n \t\t\t\t\t\t\t</div>\n \t\t\t\t\t\t</form>\n-\t\t\t\t\t\t\n \t\t\t\t\t</div>\n \t\t\t\t</div>\n \t\t\t</div>\n \t\t</section>\n \t\t<!-- bloc-7 END -->\n \t\t<!-- ScrollToTop Button -->\n \t\t<a class=\"bloc-button btn btn-d scrollToTop\" onclick=\"scrollToTarget('1')\"><span class=\"fa fa-chevron-up\"></span></a>\n \t\t<!-- ScrollToTop Button END-->\n+\t\t\n \t</main>\n \t<!-- Principal conteneur END -->\n \t<!-- Footer - bloc-8 -->\n \t<footer class=\"bloc bgc-atomic-tangerine d-bloc\" id=\"bloc-8\">\n"
+                },
+                {
+                    "date": 1674791874027,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n \t\t<!-- bloc-6 -->\n \t\t<section class=\"bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper\" id=\"bloc-6\">\n \t\t\t<div class=\"container bloc-lg\">\n \t\t\t\t<div class=\"row\">\n-\t\t\t\t\t<div class=\"col-sm-12 \">\n+\t\t\t\t\t<div class=\"col-sm-12 b\">\n \t\t\t\t\t\t<h1 class=\"text-center hero-bloc-text tc-white\">\n \t\t\t\t\t\t\tParlons web design !\n \t\t\t\t\t\t</h1>\n \t\t\t\t\t\t<p class=\"text-center mg-lg tc-white tight-width-whitespace\">\n"
+                },
+                {
+                    "date": 1674791882161,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n \t\t<!-- bloc-6 -->\n \t\t<section class=\"bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper\" id=\"bloc-6\">\n \t\t\t<div class=\"container bloc-lg\">\n \t\t\t\t<div class=\"row\">\n-\t\t\t\t\t<div class=\"col-sm-12 bgc-atomic--\">\n+\t\t\t\t\t<div class=\"col-sm-12 bgc-atomic-\">\n \t\t\t\t\t\t<h1 class=\"text-center hero-bloc-text tc-white\">\n \t\t\t\t\t\t\tParlons web design !\n \t\t\t\t\t\t</h1>\n \t\t\t\t\t\t<p class=\"text-center mg-lg tc-white tight-width-whitespace\">\n"
                 }
             ],
             "date": 1674734595611,

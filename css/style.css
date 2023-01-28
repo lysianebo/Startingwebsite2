@@ -6,7 +6,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
 a,
 button {
     transition: all .3s ease-in-out;
@@ -39,15 +38,39 @@ a:hover {
     position: relative;
 }
 
-.bloc .container {
+/* .bloc .container {
+    height: 400px;
+    width: 100%;
     padding-left: 0;
     padding-right: 0;
-}
+    display: contents;
+    flex-flow: row wrap;
+} */
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 10px 0px;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
 }
 
+.col-sm-7{
+width: 100%;
+
+}
+@media (max-width: 767px) {
+   .row .tight-width-whitespace .portfolio-row{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+}
 .bloc-md {
     padding: 50px;
 }
@@ -435,10 +458,12 @@ nav .caret {
     float: right;
 }
 
-.mg-md {
-    margin-top: 10px;
-    margin-bottom: 20px;
+
+.mg-md h3{
+    margin: auto;
+    width: 300px;
 }
+.horaire
 
 .mg-lg {
     margin-top: 10px;
@@ -508,6 +533,8 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    background-color: rgb(	255, 230, 204);
+
 }
 
 .scrollToTop {
@@ -534,6 +561,8 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
+    width: fit-content;
+    margin: auto;
 }
 
 a[data-lightbox]:hover::before {
@@ -637,6 +666,7 @@ a[data-lightbox]:hover img {
     padding: 0;
     color: rgba(0, 0, 0, .5);
     background: none;
+    text-align: center;
 }
 
 h1,
@@ -672,7 +702,7 @@ blockquote{
 .statement-bloc-text {
     line-height: 26px;
     font-style: italic;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
@@ -694,7 +724,6 @@ p {
 }
 
 .cta-hero {
-    margin-top: 22px;
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
@@ -743,12 +772,12 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin-bottom: 24px auto;
 }
-
-.portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
+.col-sm-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .avatar {
@@ -757,7 +786,7 @@ h4 {
 
 .black-background {
     background-color: rgba(165, 147, 99, 0.7);
-    padding: 40px 40px 40px 40px;
+    padding: 0px;
 }
 
 .bold-link {
@@ -774,7 +803,11 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #7c340b;
+    background-color: #68351d;
+    padding: 20px 0;
+}
+.bgc-atomic-tangerine-lighter {
+    background-color: #F3976C;
 }
 
 .tc-white {
@@ -828,6 +861,13 @@ h4 {
 
 .bg-presentation {
     background-image: url("../img/image-de-presentation.avif");
+}
+
+.horaires{
+    margin-top: 20px;
+}
+footer{
+    margin-top: 10px;
 }
 
 @media (max-width: 1024px) {

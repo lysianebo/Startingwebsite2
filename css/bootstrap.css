@@ -2009,12 +2009,6 @@ pre code {
     margin-right: auto;
     margin-left: auto
 }
-
-.row {
-    margin-right: -15px;
-    margin-left: -15px
-}
-
 .col-lg-1,
 .col-lg-10,
 .col-lg-11,
@@ -3225,7 +3219,7 @@ input[type=search] {
 }
 
 .form-group {
-    margin-bottom: 15px
+    margin-bottom: 15px;
 }
 
 .checkbox,
@@ -5285,10 +5279,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
     }
     .navbar-nav>li {
         float: left
-    }
-    .navbar-nav>li>a {
-        padding-top: 15px;
-        padding-bottom: 15px
     }
 }
 

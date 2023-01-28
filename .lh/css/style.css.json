@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 66,
+            "activePatchIndex": 165,
             "patches": [
                 {
                     "date": 1674727364654,
@@ -272,6 +272,402 @@
                 {
                     "date": 1674775683235,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -653,9 +653,9 @@\n     font-weight: 400;\r\n     color: #000!important;\r\n }\r\n blockquote{\r\n-    color: #F3976C;\r\n+    color: #773415;\r\n }\r\n \r\n .container {\r\n     max-width: 1000px;\r\n"
+                },
+                {
+                    "date": 1674785230506,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -906,10 +906,9 @@\n     h5,\r\n     h6,\r\n     p,\r\n     #disqus_thread {\r\n-        padding-left: 10px!important;\r\n-        padding-right: 10px!important;\r\n+      ma\r\n     }\r\n     .b-parallax {\r\n         background-attachment: scroll;\r\n     }\r\n"
+                },
+                {
+                    "date": 1674785236396,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -906,9 +906,9 @@\n     h5,\r\n     h6,\r\n     p,\r\n     #disqus_thread {\r\n-      ma\r\n+      margin: 0;\r\n     }\r\n     .b-parallax {\r\n         background-attachment: scroll;\r\n     }\r\n"
+                },
+                {
+                    "date": 1674785248799,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -906,9 +906,9 @@\n     h5,\r\n     h6,\r\n     p,\r\n     #disqus_thread {\r\n-      margin: 0;\r\n+      margin: ;\r\n     }\r\n     .b-parallax {\r\n         background-attachment: scroll;\r\n     }\r\n"
+                },
+                {
+                    "date": 1674785254889,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -906,9 +906,9 @@\n     h5,\r\n     h6,\r\n     p,\r\n     #disqus_thread {\r\n-      margin: ;\r\n+      margin: 20px;\r\n     }\r\n     .b-parallax {\r\n         background-attachment: scroll;\r\n     }\r\n"
+                },
+                {
+                    "date": 1674785429179,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -906,9 +906,9 @@\n     h5,\r\n     h6,\r\n     p,\r\n     #disqus_thread {\r\n-      margin: 20px;\r\n+     \r\n     }\r\n     .b-parallax {\r\n         background-attachment: scroll;\r\n     }\r\n"
+                },
+                {
+                    "date": 1674785455587,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -906,9 +906,9 @@\n     h5,\r\n     h6,\r\n     p,\r\n     #disqus_thread {\r\n-     \r\n+     mar\r\n     }\r\n     .b-parallax {\r\n         background-attachment: scroll;\r\n     }\r\n"
+                },
+                {
+                    "date": 1674785551832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -906,9 +906,9 @@\n     h5,\r\n     h6,\r\n     p,\r\n     #disqus_thread {\r\n-     mar\r\n+     \r\n     }\r\n     .b-parallax {\r\n         background-attachment: scroll;\r\n     }\r\n"
+                },
+                {
+                    "date": 1674785568606,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -906,9 +906,9 @@\n     h5,\r\n     h6,\r\n     p,\r\n     #disqus_thread {\r\n-     \r\n+     auto\r\n     }\r\n     .b-parallax {\r\n         background-attachment: scroll;\r\n     }\r\n"
+                },
+                {
+                    "date": 1674785575374,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -906,9 +906,9 @@\n     h5,\r\n     h6,\r\n     p,\r\n     #disqus_thread {\r\n-     auto\r\n+     margin: auto;\r\n     }\r\n     .b-parallax {\r\n         background-attachment: scroll;\r\n     }\r\n"
+                },
+                {
+                    "date": 1674785844299,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -831,9 +831,9 @@\n }\r\n \r\n @media (max-width: 1024px) {\r\n     .bloc {\r\n-        padding-left: 20px;\r\n+        padding-left: 0px;\r\n         padding-right: 20px;\r\n     }\r\n     .bloc.full-width-bloc,\r\n     .bloc-tile-2.full-width-bloc .container,\r\n"
+                },
+                {
+                    "date": 1674785867889,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -831,10 +831,10 @@\n }\r\n \r\n @media (max-width: 1024px) {\r\n     .bloc {\r\n-        padding-left: 0px;\r\n-        padding-right: 20px;\r\n+        padding-left: 10px;\r\n+        padding-right: 10px;\r\n     }\r\n     .bloc.full-width-bloc,\r\n     .bloc-tile-2.full-width-bloc .container,\r\n     .bloc-tile-3.full-width-bloc .container,\r\n@@ -906,9 +906,9 @@\n     h5,\r\n     h6,\r\n     p,\r\n     #disqus_thread {\r\n-     margin: auto;\r\n+\r\n     }\r\n     .b-parallax {\r\n         background-attachment: scroll;\r\n     }\r\n"
+                },
+                {
+                    "date": 1674785894108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -831,9 +831,9 @@\n }\r\n \r\n @media (max-width: 1024px) {\r\n     .bloc {\r\n-        padding-left: 10px;\r\n+        padding-left: 20px;\r\n         padding-right: 10px;\r\n     }\r\n     .bloc.full-width-bloc,\r\n     .bloc-tile-2.full-width-bloc .container,\r\n"
+                },
+                {
+                    "date": 1674785900950,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -832,9 +832,9 @@\n \r\n @media (max-width: 1024px) {\r\n     .bloc {\r\n         padding-left: 20px;\r\n-        padding-right: 10px;\r\n+        padding-right: 0px;\r\n     }\r\n     .bloc.full-width-bloc,\r\n     .bloc-tile-2.full-width-bloc .container,\r\n     .bloc-tile-3.full-width-bloc .container,\r\n"
+                },
+                {
+                    "date": 1674787482583,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -832,9 +832,9 @@\n \r\n @media (max-width: 1024px) {\r\n     .bloc {\r\n         padding-left: 20px;\r\n-        padding-right: 0px;\r\n+        padding-right: 20px;\r\n     }\r\n     .bloc.full-width-bloc,\r\n     .bloc-tile-2.full-width-bloc .container,\r\n     .bloc-tile-3.full-width-bloc .container,\r\n@@ -977,10 +977,9 @@\n         float: left;\r\n         margin-left: 10px;\r\n     }\r\n     .bloc {\r\n-        padding-left: 0;\r\n-        padding-right: 0;\r\n+      \r\n     }\r\n     .bloc-xxl,\r\n     .bloc-xl,\r\n     .bloc-lg {\r\n"
+                },
+                {
+                    "date": 1674787492454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -977,9 +977,10 @@\n         float: left;\r\n         margin-left: 10px;\r\n     }\r\n     .bloc {\r\n-      \r\n+        padding-left: 0;\r\n+        padding-right: 0;\r\n     }\r\n     .bloc-xxl,\r\n     .bloc-xl,\r\n     .bloc-lg {\r\n"
+                },
+                {
+                    "date": 1674788781125,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -580,11 +580,9 @@\n     padding: 20px;\r\n     color: #FFF;\r\n     background: rgba(0, 0, 0, .5);\r\n     position: absolute;\r\n-    left: 15px;\r\n-    right: 15px;\r\n-    bottom: 5px;\r\n+   mar\r\n }\r\n \r\n .close-lightbox {\r\n     color: #FFF;\r\n"
+                },
+                {
+                    "date": 1674788787031,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -580,9 +580,9 @@\n     padding: 20px;\r\n     color: #FFF;\r\n     background: rgba(0, 0, 0, .5);\r\n     position: absolute;\r\n-   mar\r\n+   margin: \r\n }\r\n \r\n .close-lightbox {\r\n     color: #FFF;\r\n"
+                },
+                {
+                    "date": 1674788792221,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -580,9 +580,9 @@\n     padding: 20px;\r\n     color: #FFF;\r\n     background: rgba(0, 0, 0, .5);\r\n     position: absolute;\r\n-   margin: \r\n+   margin: auto;\r\n }\r\n \r\n .close-lightbox {\r\n     color: #FFF;\r\n"
+                },
+                {
+                    "date": 1674788799847,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -581,8 +581,9 @@\n     color: #FFF;\r\n     background: rgba(0, 0, 0, .5);\r\n     position: absolute;\r\n    margin: auto;\r\n+   text-align: ;\r\n }\r\n \r\n .close-lightbox {\r\n     color: #FFF;\r\n"
+                },
+                {
+                    "date": 1674788809784,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -580,10 +580,9 @@\n     padding: 20px;\r\n     color: #FFF;\r\n     background: rgba(0, 0, 0, .5);\r\n     position: absolute;\r\n-   margin: auto;\r\n-   text-align: ;\r\n+   text-align: center;\r\n }\r\n \r\n .close-lightbox {\r\n     color: #FFF;\r\n"
+                },
+                {
+                    "date": 1674788827372,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -579,10 +579,9 @@\n .lightbox-caption {\r\n     padding: 20px;\r\n     color: #FFF;\r\n     background: rgba(0, 0, 0, .5);\r\n-    position: absolute;\r\n-   text-align: center;\r\n+   di\r\n }\r\n \r\n .close-lightbox {\r\n     color: #FFF;\r\n"
+                },
+                {
+                    "date": 1674788834115,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -579,9 +579,9 @@\n .lightbox-caption {\r\n     padding: 20px;\r\n     color: #FFF;\r\n     background: rgba(0, 0, 0, .5);\r\n-   di\r\n+   display: flex;\r\n }\r\n \r\n .close-lightbox {\r\n     color: #FFF;\r\n"
+                },
+                {
+                    "date": 1674788839984,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -580,8 +580,9 @@\n     padding: 20px;\r\n     color: #FFF;\r\n     background: rgba(0, 0, 0, .5);\r\n    display: flex;\r\n+   jus\r\n }\r\n \r\n .close-lightbox {\r\n     color: #FFF;\r\n"
+                },
+                {
+                    "date": 1674788851437,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -579,10 +579,9 @@\n .lightbox-caption {\r\n     padding: 20px;\r\n     color: #FFF;\r\n     background: rgba(0, 0, 0, .5);\r\n-   display: flex;\r\n-   jus\r\n+   text-align: center;\r\n }\r\n \r\n .close-lightbox {\r\n     color: #FFF;\r\n"
+                },
+                {
+                    "date": 1674788858441,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -579,9 +579,11 @@\n .lightbox-caption {\r\n     padding: 20px;\r\n     color: #FFF;\r\n     background: rgba(0, 0, 0, .5);\r\n-   text-align: center;\r\n+    position: absolute;\r\n+   margin: auto;\r\n+   te\r\n }\r\n \r\n .close-lightbox {\r\n     color: #FFF;\r\n"
+                },
+                {
+                    "date": 1674788995628,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -580,10 +580,11 @@\n     padding: 20px;\r\n     color: #FFF;\r\n     background: rgba(0, 0, 0, .5);\r\n     position: absolute;\r\n-   margin: auto;\r\n-   te\r\n+    left: 15px;\r\n+    right: 15px;\r\n+    bottom: 5px;\r\n }\r\n \r\n .close-lightbox {\r\n     color: #FFF;\r\n@@ -635,8 +636,9 @@\n .snapshot-lb .lightbox-caption {\r\n     padding: 0;\r\n     color: rgba(0, 0, 0, .5);\r\n     background: none;\r\n+    \r\n }\r\n \r\n h1,\r\n h2,\r\n"
+                },
+                {
+                    "date": 1674789001372,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -636,9 +636,9 @@\n .snapshot-lb .lightbox-caption {\r\n     padding: 0;\r\n     color: rgba(0, 0, 0, .5);\r\n     background: none;\r\n-    \r\n+    text-align: ;\r\n }\r\n \r\n h1,\r\n h2,\r\n"
+                },
+                {
+                    "date": 1674789055319,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -636,9 +636,9 @@\n .snapshot-lb .lightbox-caption {\r\n     padding: 0;\r\n     color: rgba(0, 0, 0, .5);\r\n     background: none;\r\n-    text-align: ;\r\n+    text-align: center;\r\n }\r\n \r\n h1,\r\n h2,\r\n"
+                },
+                {
+                    "date": 1674789272655,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -907,9 +907,10 @@\n     h5,\r\n     h6,\r\n     p,\r\n     #disqus_thread {\r\n-\r\n+        padding-left: 10px!important;\r\n+        padding-right: 10px!important;\r\n     }\r\n     .b-parallax {\r\n         background-attachment: scroll;\r\n     }\r\n"
+                },
+                {
+                    "date": 1674790754662,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -658,9 +658,9 @@\n     color: #773415;\r\n }\r\n \r\n .container {\r\n-    max-width: 1000px;\r\n+    max-width: 00px;\r\n }\r\n \r\n .hero-bloc-text {\r\n     font-size: 38px;\r\n"
+                },
+                {
+                    "date": 1674790769792,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -658,9 +658,9 @@\n     color: #773415;\r\n }\r\n \r\n .container {\r\n-    max-width: 00px;\r\n+    max-width: 800px;\r\n }\r\n \r\n .hero-bloc-text {\r\n     font-size: 38px;\r\n"
+                },
+                {
+                    "date": 1674791247247,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -774,9 +774,9 @@\n     background-color: #364577;\r\n }\r\n \r\n .bgc-atomic-tangerine {\r\n-    background-color: #7c340b;\r\n+    background-color: #f3976c;\r\n }\r\n \r\n .tc-white {\r\n     color: #FFF!important;\r\n"
+                },
+                {
+                    "date": 1674791471493,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -774,9 +774,9 @@\n     background-color: #364577;\r\n }\r\n \r\n .bgc-atomic-tangerine {\r\n-    background-color: #f3976c;\r\n+    background-color: #68351d;\r\n }\r\n \r\n .tc-white {\r\n     color: #FFF!important;\r\n"
+                },
+                {
+                    "date": 1674792050295,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -777,8 +777,9 @@\n .bgc-atomic-tangerine {\r\n     background-color: #68351d;\r\n }\r\n \r\n+\r\n .tc-white {\r\n     color: #FFF!important;\r\n     font-weight: 900;\r\n }\r\n"
+                },
+                {
+                    "date": 1674792055983,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -776,10 +776,12 @@\n \r\n .bgc-atomic-tangerine {\r\n     background-color: #68351d;\r\n }\r\n+.bgc-atomic-tangerine- {\r\n+    background-color: #68351d;\r\n+}\r\n \r\n-\r\n .tc-white {\r\n     color: #FFF!important;\r\n     font-weight: 900;\r\n }\r\n"
+                },
+                {
+                    "date": 1674792072567,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -776,10 +776,10 @@\n \r\n .bgc-atomic-tangerine {\r\n     background-color: #68351d;\r\n }\r\n-.bgc-atomic-tangerine- {\r\n-    background-color: #68351d;\r\n+.bgc-atomic-tangerine-lighter {\r\n+    background-color: #F3976C;\r\n }\r\n \r\n .tc-white {\r\n     color: #FFF!important;\r\n"
+                },
+                {
+                    "date": 1674792590236,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -441,9 +441,9 @@\n }\r\n \r\n .mg-lg {\r\n     margin-top: 10px;\r\n-    margin-bottom: 40px;\r\n+    margin-bottom: 440px;\r\n }\r\n \r\n .btn {\r\n     margin: 0 5px 5px 0;\r\n"
+                },
+                {
+                    "date": 1674792601537,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -441,9 +441,9 @@\n }\r\n \r\n .mg-lg {\r\n     margin-top: 10px;\r\n-    margin-bottom: 440px;\r\n+    margin-bottom: 40px;\r\n }\r\n \r\n .btn {\r\n     margin: 0 5px 5px 0;\r\n"
+                },
+                {
+                    "date": 1674792632085,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -439,9 +439,9 @@\n     margin-top: 10px;\r\n     margin-bottom: 20px;\r\n }\r\n \r\n-.mg-lg {\r\n+p .mg-lg {\r\n     margin-top: 10px;\r\n     margin-bottom: 40px;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1674792642879,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -439,9 +439,9 @@\n     margin-top: 10px;\r\n     margin-bottom: 20px;\r\n }\r\n \r\n-p .mg-lg {\r\n+p.mg-lg {\r\n     margin-top: 10px;\r\n     margin-bottom: 40px;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1674792653767,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -439,9 +439,9 @@\n     margin-top: 10px;\r\n     margin-bottom: 20px;\r\n }\r\n \r\n-p.mg-lg {\r\n+.mg-lg {\r\n     margin-top: 10px;\r\n     margin-bottom: 40px;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1674792659639,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -439,9 +439,9 @@\n     margin-top: 10px;\r\n     margin-bottom: 20px;\r\n }\r\n \r\n-.mg-lg {\r\n+.mg-lg p{\r\n     margin-top: 10px;\r\n     margin-bottom: 40px;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1674792667156,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -439,9 +439,9 @@\n     margin-top: 10px;\r\n     margin-bottom: 20px;\r\n }\r\n \r\n-.mg-lg p{\r\n+.mg-lg, p{\r\n     margin-top: 10px;\r\n     margin-bottom: 40px;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1674793061731,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -439,9 +439,9 @@\n     margin-top: 10px;\r\n     margin-bottom: 20px;\r\n }\r\n \r\n-.mg-lg, p{\r\n+.mg-lg{\r\n     margin-top: 10px;\r\n     margin-bottom: 40px;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1674793067082,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -440,9 +440,9 @@\n     margin-bottom: 20px;\r\n }\r\n \r\n .mg-lg{\r\n-    margin-top: 10px;\r\n+    margin-top: 40px;\r\n     margin-bottom: 40px;\r\n }\r\n \r\n .btn {\r\n"
+                },
+                {
+                    "date": 1674793143505,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -440,9 +440,9 @@\n     margin-bottom: 20px;\r\n }\r\n \r\n .mg-lg{\r\n-    margin-top: 40px;\r\n+    margin-top: 10px;\r\n     margin-bottom: 40px;\r\n }\r\n \r\n .btn {\r\n"
+                },
+                {
+                    "date": 1674793179844,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -685,9 +685,9 @@\n }\r\n \r\n .tight-width-whitespace {\r\n     max-width: 600px;\r\n-    margin: auto auto auto auto;\r\n+    margin:  auto;\r\n }\r\n \r\n .h1 {\r\n     font-size: 20px;\r\n"
+                },
+                {
+                    "date": 1674793188281,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -685,9 +685,9 @@\n }\r\n \r\n .tight-width-whitespace {\r\n     max-width: 600px;\r\n-    margin:  auto;\r\n+    margin-:  auto;\r\n }\r\n \r\n .h1 {\r\n     font-size: 20px;\r\n"
+                },
+                {
+                    "date": 1674793196127,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -685,9 +685,9 @@\n }\r\n \r\n .tight-width-whitespace {\r\n     max-width: 600px;\r\n-    margin-:  auto;\r\n+    margin-bottom: ;\r\n }\r\n \r\n .h1 {\r\n     font-size: 20px;\r\n"
+                },
+                {
+                    "date": 1674793202379,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -685,9 +685,9 @@\n }\r\n \r\n .tight-width-whitespace {\r\n     max-width: 600px;\r\n-    margin-bottom: ;\r\n+    margin-bottom: 30px;\r\n }\r\n \r\n .h1 {\r\n     font-size: 20px;\r\n"
+                },
+                {
+                    "date": 1674793214603,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -685,9 +685,9 @@\n }\r\n \r\n .tight-width-whitespace {\r\n     max-width: 600px;\r\n-    margin-bottom: 30px;\r\n+    margin: 30px;\r\n }\r\n \r\n .h1 {\r\n     font-size: 20px;\r\n"
+                },
+                {
+                    "date": 1674793264228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -439,13 +439,10 @@\n     margin-top: 10px;\r\n     margin-bottom: 20px;\r\n }\r\n \r\n-.mg-lg{\r\n-    margin-top: 10px;\r\n-    margin-bottom: 40px;\r\n-}\r\n \r\n+\r\n .btn {\r\n     margin: 0 5px 5px 0;\r\n }\r\n \r\n@@ -685,9 +682,9 @@\n }\r\n \r\n .tight-width-whitespace {\r\n     max-width: 600px;\r\n-    margin: 30px;\r\n+    margin: auto 30px;\r\n }\r\n \r\n .h1 {\r\n     font-size: 20px;\r\n"
+                },
+                {
+                    "date": 1674793274217,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -439,10 +439,13 @@\n     margin-top: 10px;\r\n     margin-bottom: 20px;\r\n }\r\n \r\n+.mg-lg{\r\n+    margin-top: 10px;\r\n+    margin-bottom: 40px;\r\n+}\r\n \r\n-\r\n .btn {\r\n     margin: 0 5px 5px 0;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1674793325344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -685,9 +685,9 @@\n }\r\n \r\n .tight-width-whitespace {\r\n     max-width: 600px;\r\n-    margin: auto 30px;\r\n+    margin: auto ;\r\n }\r\n \r\n .h1 {\r\n     font-size: 20px;\r\n"
+                },
+                {
+                    "date": 1674793341220,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -685,9 +685,9 @@\n }\r\n \r\n .tight-width-whitespace {\r\n     max-width: 600px;\r\n-    margin: auto ;\r\n+    margin: auto auto;\r\n }\r\n \r\n .h1 {\r\n     font-size: 20px;\r\n"
+                },
+                {
+                    "date": 1674793842261,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -903,9 +903,9 @@\n         overflow-x: hidden;\r\n         position: relative;\r\n     }\r\n     h1,\r\n-    h2,\r\n+    \r\n     h3,\r\n     h4,\r\n     h5,\r\n     h6,\r\n"
+                },
+                {
+                    "date": 1674793862458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -903,9 +903,9 @@\n         overflow-x: hidden;\r\n         position: relative;\r\n     }\r\n     h1,\r\n-    \r\n+    h2,\r\n     h3,\r\n     h4,\r\n     h5,\r\n     h6,\r\n"
+                },
+                {
+                    "date": 1674793871052,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -910,10 +910,10 @@\n     h5,\r\n     h6,\r\n     p,\r\n     #disqus_thread {\r\n-        padding-left: 10px!important;\r\n-        padding-right: 10px!important;\r\n+        /* padding-left: 10px!important;\r\n+        padding-right: 10px!important; */\r\n     }\r\n     .b-parallax {\r\n         background-attachment: scroll;\r\n     }\r\n"
+                },
+                {
+                    "date": 1674807624352,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -685,9 +685,8 @@\n }\r\n \r\n .tight-width-whitespace {\r\n     max-width: 600px;\r\n-    margin: auto auto;\r\n }\r\n \r\n .h1 {\r\n     font-size: 20px;\r\n"
+                },
+                {
+                    "date": 1674807640760,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -685,8 +685,9 @@\n }\r\n \r\n .tight-width-whitespace {\r\n     max-width: 600px;\r\n+    margin: auto auto;\r\n }\r\n \r\n .h1 {\r\n     font-size: 20px;\r\n"
+                },
+                {
+                    "date": 1674807655868,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -685,9 +685,9 @@\n }\r\n \r\n .tight-width-whitespace {\r\n     max-width: 600px;\r\n-    margin: auto auto;\r\n+    margin: auto aut;\r\n }\r\n \r\n .h1 {\r\n     font-size: 20px;\r\n"
+                },
+                {
+                    "date": 1674807663992,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -685,9 +685,9 @@\n }\r\n \r\n .tight-width-whitespace {\r\n     max-width: 600px;\r\n-    margin: auto aut;\r\n+    margin: ;\r\n }\r\n \r\n .h1 {\r\n     font-size: 20px;\r\n"
+                },
+                {
+                    "date": 1674807671722,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -685,9 +685,9 @@\n }\r\n \r\n .tight-width-whitespace {\r\n     max-width: 600px;\r\n-    margin: ;\r\n+    margin: 40px auto;\r\n }\r\n \r\n .h1 {\r\n     font-size: 20px;\r\n"
+                },
+                {
+                    "date": 1674807700278,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -685,9 +685,9 @@\n }\r\n \r\n .tight-width-whitespace {\r\n     max-width: 600px;\r\n-    margin: 40px auto;\r\n+    margin: 0px auto;\r\n }\r\n \r\n .h1 {\r\n     font-size: 20px;\r\n"
+                },
+                {
+                    "date": 1674807897009,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -672,9 +672,9 @@\n \r\n .statement-bloc-text {\r\n     line-height: 26px;\r\n     font-style: italic;\r\n-    font-size: 20px;\r\n+    font-size: px;\r\n     text-align: center;\r\n     font-weight: lighter;\r\n     max-width: 520px;\r\n     margin: auto auto auto auto;\r\n"
+                },
+                {
+                    "date": 1674808799877,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -672,9 +672,9 @@\n \r\n .statement-bloc-text {\r\n     line-height: 26px;\r\n     font-style: italic;\r\n-    font-size: px;\r\n+    font-size: 18px;\r\n     text-align: center;\r\n     font-weight: lighter;\r\n     max-width: 520px;\r\n     margin: auto auto auto auto;\r\n@@ -685,9 +685,9 @@\n }\r\n \r\n .tight-width-whitespace {\r\n     max-width: 600px;\r\n-    margin: 0px auto;\r\n+    margin: px auto;\r\n }\r\n \r\n .h1 {\r\n     font-size: 20px;\r\n"
+                },
+                {
+                    "date": 1674808815857,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -685,9 +685,9 @@\n }\r\n \r\n .tight-width-whitespace {\r\n     max-width: 600px;\r\n-    margin: px auto;\r\n+    margin: 32px auto;\r\n }\r\n \r\n .h1 {\r\n     font-size: 20px;\r\n"
+                },
+                {
+                    "date": 1674808821102,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -685,9 +685,9 @@\n }\r\n \r\n .tight-width-whitespace {\r\n     max-width: 600px;\r\n-    margin: 32px auto;\r\n+    margin: 20px auto;\r\n }\r\n \r\n .h1 {\r\n     font-size: 20px;\r\n"
+                },
+                {
+                    "date": 1674809706109,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -439,9 +439,9 @@\n     margin-top: 10px;\r\n     margin-bottom: 20px;\r\n }\r\n \r\n-.mg-lg{\r\n+.mg-lg {\r\n     margin-top: 10px;\r\n     margin-bottom: 40px;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1674810697986,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -278,11 +278,9 @@\n }\r\n \r\n .row.row-no-gutters > [class^=\"col-\"],\r\n .row.row-no-gutters > [class*=\" col-\"] {\r\n-    padding-right: 0;\r\n-    padding-left: 0;\r\n-}\r\n+  \r\n \r\n #bloc-1-hero h1 {\r\n     font-size: 32px;\r\n }\r\n"
+                },
+                {
+                    "date": 1674810706681,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -278,9 +278,11 @@\n }\r\n \r\n .row.row-no-gutters > [class^=\"col-\"],\r\n .row.row-no-gutters > [class*=\" col-\"] {\r\n-  \r\n+    padding-right: 0;\r\n+    padding-left: 0;\r\n+}\r\n \r\n #bloc-1-hero h1 {\r\n     font-size: 32px;\r\n }\r\n"
+                },
+                {
+                    "date": 1674813120114,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -910,10 +910,10 @@\n     h5,\r\n     h6,\r\n     p,\r\n     #disqus_thread {\r\n-        /* padding-left: 10px!important;\r\n-        padding-right: 10px!important; */\r\n+        padding-left: 10px!important;\r\n+        padding-right: 10px!important;\r\n     }\r\n     .b-parallax {\r\n         background-attachment: scroll;\r\n     }\r\n"
+                },
+                {
+                    "date": 1674813170788,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -902,9 +902,9 @@\n     .page-container {\r\n         overflow-x: hidden;\r\n         position: relative;\r\n     }\r\n-    h1,\r\n+    \r\n     h2,\r\n     h3,\r\n     h4,\r\n     h5,\r\n"
+                },
+                {
+                    "date": 1674813193346,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -910,9 +910,9 @@\n     h5,\r\n     h6,\r\n     p,\r\n     #disqus_thread {\r\n-        padding-left: 10px!important;\r\n+        padding-left: px!important;\r\n         padding-right: 10px!important;\r\n     }\r\n     .b-parallax {\r\n         background-attachment: scroll;\r\n"
+                },
+                {
+                    "date": 1674813207028,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -902,17 +902,17 @@\n     .page-container {\r\n         overflow-x: hidden;\r\n         position: relative;\r\n     }\r\n-    \r\n+    h1\r\n     h2,\r\n     h3,\r\n     h4,\r\n     h5,\r\n     h6,\r\n     p,\r\n     #disqus_thread {\r\n-        padding-left: px!important;\r\n+        padding-left: 5px!important;\r\n         padding-right: 10px!important;\r\n     }\r\n     .b-parallax {\r\n         background-attachment: scroll;\r\n"
+                },
+                {
+                    "date": 1674813219207,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -911,9 +911,9 @@\n     h6,\r\n     p,\r\n     #disqus_thread {\r\n         padding-left: 5px!important;\r\n-        padding-right: 10px!important;\r\n+        padding-right: 5px!important;\r\n     }\r\n     .b-parallax {\r\n         background-attachment: scroll;\r\n     }\r\n"
+                },
+                {
+                    "date": 1674813237241,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -910,9 +910,9 @@\n     h5,\r\n     h6,\r\n     p,\r\n     #disqus_thread {\r\n-        padding-left: 5px!important;\r\n+        padding-left: px!important;\r\n         padding-right: 5px!important;\r\n     }\r\n     .b-parallax {\r\n         background-attachment: scroll;\r\n"
+                },
+                {
+                    "date": 1674813396401,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -910,10 +910,10 @@\n     h5,\r\n     h6,\r\n     p,\r\n     #disqus_thread {\r\n-        padding-left: px!important;\r\n-        padding-right: 5px!important;\r\n+        padding-left: 10px!important;\r\n+        padding-right: 10px!important;\r\n     }\r\n     .b-parallax {\r\n         background-attachment: scroll;\r\n     }\r\n"
+                },
+                {
+                    "date": 1674813446364,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -685,9 +685,9 @@\n }\r\n \r\n .tight-width-whitespace {\r\n     max-width: 600px;\r\n-    margin: 20px auto;\r\n+    margin: 120px auto;\r\n }\r\n \r\n .h1 {\r\n     font-size: 20px;\r\n"
+                },
+                {
+                    "date": 1674813462694,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -685,9 +685,9 @@\n }\r\n \r\n .tight-width-whitespace {\r\n     max-width: 600px;\r\n-    margin: 120px auto;\r\n+    margin: 20px auto;\r\n }\r\n \r\n .h1 {\r\n     font-size: 20px;\r\n"
+                },
+                {
+                    "date": 1674815432296,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n     padding-right: 0;\r\n }\r\n \r\n .bloc-lg {\r\n-    padding: 100px 50px;\r\n+    padding: px;\r\n }\r\n \r\n .bloc-md {\r\n     padding: 50px;\r\n"
+                },
+                {
+                    "date": 1674815780075,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n     padding-right: 0;\r\n }\r\n \r\n .bloc-lg {\r\n-    padding: px;\r\n+    padding: 0px;\r\n }\r\n \r\n .bloc-md {\r\n     padding: 50px;\r\n@@ -757,9 +757,9 @@\n }\r\n \r\n .black-background {\r\n     background-color: rgba(165, 147, 99, 0.7);\r\n-    padding: 40px 40px 40px 40px;\r\n+    padding: \r\n }\r\n \r\n .bold-link {\r\n     font-weight: 900;\r\n"
+                },
+                {
+                    "date": 1674815787350,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -757,9 +757,9 @@\n }\r\n \r\n .black-background {\r\n     background-color: rgba(165, 147, 99, 0.7);\r\n-    padding: \r\n+    padding: 0px;\r\n }\r\n \r\n .bold-link {\r\n     font-weight: 900;\r\n"
+                },
+                {
+                    "date": 1674816204713,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -435,10 +435,9 @@\n     float: right;\r\n }\r\n \r\n .mg-md {\r\n-    margin-top: 10px;\r\n-    margin-bottom: 20px;\r\n+   margin\r\n }\r\n \r\n .mg-lg {\r\n     margin-top: 10px;\r\n"
+                },
+                {
+                    "date": 1674816210463,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -435,9 +435,9 @@\n     float: right;\r\n }\r\n \r\n .mg-md {\r\n-   margin\r\n+   margin: 20;\r\n }\r\n \r\n .mg-lg {\r\n     margin-top: 10px;\r\n"
+                },
+                {
+                    "date": 1674816231546,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -435,9 +435,9 @@\n     float: right;\r\n }\r\n \r\n .mg-md {\r\n-   margin: 20;\r\n+   margin: 10px;\r\n }\r\n \r\n .mg-lg {\r\n     margin-top: 10px;\r\n"
+                },
+                {
+                    "date": 1674816252742,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -435,9 +435,9 @@\n     float: right;\r\n }\r\n \r\n .mg-md {\r\n-   margin: 10px;\r\n+   margin: 5pxpx;\r\n }\r\n \r\n .mg-lg {\r\n     margin-top: 10px;\r\n"
+                },
+                {
+                    "date": 1674816267759,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -435,9 +435,9 @@\n     float: right;\r\n }\r\n \r\n .mg-md {\r\n-   margin: 5pxpx;\r\n+   margin: 0px;\r\n }\r\n \r\n .mg-lg {\r\n     margin-top: 10px;\r\n"
+                },
+                {
+                    "date": 1674816279652,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -435,9 +435,9 @@\n     float: right;\r\n }\r\n \r\n .mg-md {\r\n-   margin: 0px;\r\n+   margin: 1%;\r\n }\r\n \r\n .mg-lg {\r\n     margin-top: 10px;\r\n"
+                },
+                {
+                    "date": 1674816294272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -435,9 +435,9 @@\n     float: right;\r\n }\r\n \r\n .mg-md {\r\n-   margin: 1%;\r\n+   margin: 5%;\r\n }\r\n \r\n .mg-lg {\r\n     margin-top: 10px;\r\n"
+                },
+                {
+                    "date": 1674816324668,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -435,9 +435,9 @@\n     float: right;\r\n }\r\n \r\n .mg-md {\r\n-   margin: 5%;\r\n+   margin: 5px;\r\n }\r\n \r\n .mg-lg {\r\n     margin-top: 10px;\r\n"
+                },
+                {
+                    "date": 1674816347408,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -435,9 +435,9 @@\n     float: right;\r\n }\r\n \r\n .mg-md {\r\n-   margin: 5px;\r\n+   margin: 40px;\r\n }\r\n \r\n .mg-lg {\r\n     margin-top: 10px;\r\n"
+                },
+                {
+                    "date": 1674816433049,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -434,9 +434,9 @@\n     margin: 6px -5px 0 0!important;\r\n     float: right;\r\n }\r\n \r\n-.mg-md {\r\n+h.mg-md {\r\n    margin: 40px;\r\n }\r\n \r\n .mg-lg {\r\n"
+                },
+                {
+                    "date": 1674816439285,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -434,9 +434,9 @@\n     margin: 6px -5px 0 0!important;\r\n     float: right;\r\n }\r\n \r\n-h.mg-md {\r\n+h2 .mg-md {\r\n    margin: 40px;\r\n }\r\n \r\n .mg-lg {\r\n"
+                },
+                {
+                    "date": 1674816457687,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -434,9 +434,9 @@\n     margin: 6px -5px 0 0!important;\r\n     float: right;\r\n }\r\n \r\n-h2 .mg-md {\r\n+.mg-md {\r\n    margin: 40px;\r\n }\r\n \r\n .mg-lg {\r\n"
+                },
+                {
+                    "date": 1674816470088,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -434,9 +434,9 @@\n     margin: 6px -5px 0 0!important;\r\n     float: right;\r\n }\r\n \r\n-.mg-md {\r\n+.mg-md, h2 {\r\n    margin: 40px;\r\n }\r\n \r\n .mg-lg {\r\n"
+                },
+                {
+                    "date": 1674816480322,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -435,9 +435,9 @@\n     float: right;\r\n }\r\n \r\n .mg-md, h2 {\r\n-   margin: 40px;\r\n+   margin: 400px;\r\n }\r\n \r\n .mg-lg {\r\n     margin-top: 10px;\r\n"
+                },
+                {
+                    "date": 1674816486984,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -435,9 +435,9 @@\n     float: right;\r\n }\r\n \r\n .mg-md, h2 {\r\n-   margin: 00px;\r\n+   margin: 100px;\r\n }\r\n \r\n .mg-lg {\r\n     margin-top: 10px;\r\n"
+                },
+                {
+                    "date": 1674817608216,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n \r\n .bloc-lg {\r\n     padding: 0px;\r\n     display: flex;\r\n-    fle\r\n+    flex-direction: ;\r\n \r\n }\r\n \r\n .bloc-md {\r\n"
                 }
             ],
             "date": 1674727364654,
