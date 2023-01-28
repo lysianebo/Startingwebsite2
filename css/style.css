@@ -114,7 +114,7 @@ width: 100%;
 }
 
 .texture-paper::before {
-    background: url("../img/texture-paper.avif");
+    background: url("../img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -124,6 +124,10 @@ width: 100%;
 
 .d-bloc {
     color: rgba(255, 255, 255, .7);
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .d-bloc button:hover {
@@ -155,7 +159,8 @@ width: 100%;
 .d-bloc h4 a,
 .d-bloc h5 a,
 .d-bloc h6 a,
-.d-bloc p a {
+.d-bloc p a 
+f{
     color: rgba(255, 255, 255, .6);
 }
 
@@ -819,6 +824,7 @@ h4 {
     background: #FFF;
     color: #000!important;
     border: 3px solid #F3976C;
+    margin-top: 22px;
 }
 
 .btn-atomic-tangerine:hover {
@@ -852,7 +858,7 @@ h4 {
 }
 
 .bg-lines-h2-bg {
-    background-image: url("../img/lines-h2-bg.png");
+    background-image: url("../img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
@@ -869,7 +875,13 @@ h4 {
 footer{
     margin-top: 10px;
 }
-
+footer  .icon-md{
+    color: rgba(255, 255, 255, .6);
+}
+footer  .icon-md:hover {
+    color: rgba(255, 255, 255, .9);
+}
+  
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
