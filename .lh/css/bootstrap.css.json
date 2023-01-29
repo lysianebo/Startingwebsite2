@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 78,
+            "activePatchIndex": 99,
             "patches": [
                 {
                     "date": 1674790490647,
@@ -320,6 +320,90 @@
                 {
                     "date": 1674918315422,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3219,9 +3219,8 @@\n }\n \n .form-group {\n     margin-bottom: 15px;\n-    background-color: rgb(255, 255, 255);\n }\n \n .checkbox,\n .radio {\n"
+                },
+                {
+                    "date": 1674996205367,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6264,10 +6264,9 @@\n \n .media,\n .media-body {\n     overflow: hidden;\n-    zoom: 1\n-}\n+    transform: scale(1) \n \n .media-body {\n     width: 10000px\n }\n"
+                },
+                {
+                    "date": 1674996218297,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6265,9 +6265,9 @@\n .media,\n .media-body {\n     overflow: hidden;\n     transform: scale(1) \n-\n+}\n .media-body {\n     width: 10000px\n }\n \n"
+                },
+                {
+                    "date": 1674997492280,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4279,9 +4279,9 @@\n     height: 0;\n     margin-left: 2px;\n     vertical-align: middle;\n     border-top: 4px dashed;\n-    border-top: 4px solid\\9;\n+    border-top: 4px solid\\;\n     border-right: 4px solid transparent;\n     border-left: 4px solid transparent\n }\n \n"
+                },
+                {
+                    "date": 1674997566691,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4279,9 +4279,9 @@\n     height: 0;\n     margin-left: 2px;\n     vertical-align: middle;\n     border-top: 4px dashed;\n-    border-top: 4px solid\\;\n+    border-top: 4px solid red;\n     border-right: 4px solid transparent;\n     border-left: 4px solid transparent\n }\n \n"
+                },
+                {
+                    "date": 1674997708124,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4279,9 +4279,9 @@\n     height: 0;\n     margin-left: 2px;\n     vertical-align: middle;\n     border-top: 4px dashed;\n-    border-top: 4px solid red;\n+    border-top: 4px solid ;\n     border-right: 4px solid transparent;\n     border-left: 4px solid transparent\n }\n \n"
+                },
+                {
+                    "date": 1674997762007,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4279,9 +4279,9 @@\n     height: 0;\n     margin-left: 2px;\n     vertical-align: middle;\n     border-top: 4px dashed;\n-    border-top: 4px solid ;\n+    border-top: 4px solid black;\n     border-right: 4px solid transparent;\n     border-left: 4px solid transparent\n }\n \n@@ -7670,9 +7670,9 @@\n     height: 10px;\n     margin: 1px;\n     text-indent: -999px;\n     cursor: pointer;\n-    background-color: #000\\9;\n+    background-color: #000;\n     background-color: rgba(0, 0, 0, 0);\n     border: 1px solid #fff;\n     border-radius: 10px\n }\n"
+                },
+                {
+                    "date": 1674997823842,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7044,9 +7044,9 @@\n     opacity: .5\n }\n \n button.close {\n-    -webkit-appearance: none;\n+    appearance: none;\n     padding: 0;\n     cursor: pointer;\n     background: 0 0;\n     border: 0\n"
+                },
+                {
+                    "date": 1674997853398,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3185,9 +3185,9 @@\n     height: auto\n }\n \n input[type=search] {\n-    -webkit-appearance: none\n+    appearance: none\n }\n \n @media screen and (-webkit-min-device-pixel-ratio:0) {\n     input[type=date].form-control,\n"
+                },
+                {
+                    "date": 1674997871537,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -191,9 +191,9 @@\n input[type=search] {\n     -webkit-box-sizing: content-box;\n     -moz-box-sizing: content-box;\n     box-sizing: content-box;\n-    -webkit-appearance: textfield\n+    appearance: textfield\n }\n \n input[type=search]::-webkit-search-cancel-button,\n input[type=search]::-webkit-search-decoration {\n"
+                },
+                {
+                    "date": 1674997882888,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -155,9 +155,9 @@\n button,\n html input[type=button],\n input[type=reset],\n input[type=submit] {\n-    -webkit-appearance: button;\n+    appearance: button;\n     cursor: pointer\n }\n \n button[disabled],\n"
+                },
+                {
+                    "date": 1674997952629,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5117,9 +5117,9 @@\n .navbar-fixed-top .navbar-collapse {\n     max-height: 340px\n }\n \n-@media (max-device-width:480px) and (orientation:landscape) {\n+@media (max-d-width:480px) and (orientation:landscape) {\n     .navbar-fixed-bottom .navbar-collapse,\n     .navbar-fixed-top .navbar-collapse {\n         max-height: 200px\n     }\n"
+                },
+                {
+                    "date": 1674997960731,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5117,9 +5117,9 @@\n .navbar-fixed-top .navbar-collapse {\n     max-height: 340px\n }\n \n-@media (max-d-width:480px) and (orientation:landscape) {\n+@media (max-width:480px) and (orientation:landscape) {\n     .navbar-fixed-bottom .navbar-collapse,\n     .navbar-fixed-top .navbar-collapse {\n         max-height: 200px\n     }\n"
+                },
+                {
+                    "date": 1674998287410,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4366,9 +4366,8 @@\n     text-decoration: none;\n     cursor: not-allowed;\n     background-color: transparent;\n     background-image: none;\n-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)\n }\n \n .open>.dropdown-menu {\n     display: block\n"
+                },
+                {
+                    "date": 1674998294027,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4366,8 +4366,9 @@\n     text-decoration: none;\n     cursor: not-allowed;\n     background-color: transparent;\n     background-image: none;\n+    /* filter: progid:DXImageTransform.Microsoft.gradient(enabled=false) */\n }\n \n .open>.dropdown-menu {\n     display: block\n"
+                },
+                {
+                    "date": 1674998537051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3095,9 +3095,9 @@\n \n input[type=checkbox],\n input[type=radio] {\n     margin: 4px 0 0;\n-    margin-top: 1px\\9;\n+    margin-top: 1px;\n     line-height: normal\n }\n \n input[type=file] {\n"
+                },
+                {
+                    "date": 1674998565858,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3243,9 +3243,9 @@\n .checkbox-inline input[type=checkbox],\n .radio input[type=radio],\n .radio-inline input[type=radio] {\n     position: absolute;\n-    margin-top: 4px\\9;\n+    margin-top: 4px\\;\n     margin-left: -20px\n }\n \n .checkbox+.checkbox,\n"
+                },
+                {
+                    "date": 1674998580843,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3243,9 +3243,9 @@\n .checkbox-inline input[type=checkbox],\n .radio input[type=radio],\n .radio-inline input[type=radio] {\n     position: absolute;\n-    margin-top: 4px\\;\n+    margin-top: 4px;\n     margin-left: -20px\n }\n \n .checkbox+.checkbox,\n@@ -4415,9 +4415,9 @@\n .navbar-fixed-bottom .dropdown .caret {\n     content: \"\";\n     border-top: 0;\n     border-bottom: 4px dashed;\n-    border-bottom: 4px solid\\9\n+    border-bottom: 4px solid\n }\n \n .dropup .dropdown-menu,\n .navbar-fixed-bottom .dropdown .dropdown-menu {\n"
+                },
+                {
+                    "date": 1674998695155,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6144,9 +6144,9 @@\n .alert-danger .alert-link {\n     color: #843534\n }\n \n-@-webkit-keyframes progress-bar-stripes {\n+@keyframes progress-bar-stripes {\n     from {\n         background-position: 40px 0\n     }\n     to {\n"
+                },
+                {
+                    "date": 1674998923392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6153,9 +6153,9 @@\n         background-position: 0 0\n     }\n }\n \n-@-o-keyframes progress-bar-stripes {\n+@keyframes progress-bar-stripes {\n     from {\n         background-position: 40px 0\n     }\n     to {\n@@ -7822,9 +7822,9 @@\n .affix {\n     position: fixed\n }\n \n-@-ms-viewport {\n+@viewport {\n     width: device-width\n }\n \n .visible-lg,\n"
+                },
+                {
+                    "date": 1674999018898,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7822,9 +7822,9 @@\n .affix {\n     position: fixed\n }\n \n-@viewport {\n+@-ms-viewport {\n     width: device-width\n }\n \n .visible-lg,\n"
+                },
+                {
+                    "date": 1674999024728,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7822,11 +7822,11 @@\n .affix {\n     position: fixed\n }\n \n-@-ms-viewport {\n+/* @-ms-viewport {\n     width: device-width\n-}\n+} */\n \n .visible-lg,\n .visible-md,\n .visible-sm,\n"
                 }
             ],
             "date": 1674790490647,
